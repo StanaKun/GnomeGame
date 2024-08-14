@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://tmlciudcx066"]
+
+[ext_resource type="AudioStream" uid="uid://b3ngab84cqhlh" path="res://assets/Music/Gnome Song.wav" id="1_1scc6"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_1scc6")
+autoplay = true
+bus = &"Music"
